@@ -141,3 +141,37 @@ nav ul li{
     margin-left: 70px;
     margin-bottom: 7px;
 }
+.section3{
+    display: flex;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.sec3 >p h1{
+    margin-right: 95px;
+
+}
+.section3 >img{
+    width: 40%;
+}
+.move{
+    margin-left: 100px;
+    margin-right: 30px;
+    
+
+}
+.sec3 h1>span{
+    text-decoration: underline;
+    text-decoration-color:#ED661F;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 5px;
+}
+.sec3>p{
+    margin-top: 40px;
+    
+    font-size: 20px;
+}
+.sec3>h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
