@@ -57,3 +57,40 @@ nav ul li{
     }
     
 }
+.section2{
+    display: flex;
+
+     }
+.left {
+    float:left;
+    margin-top: 100px;
+   
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    
+}
+.section2 img{
+    width:40%;
+    height: 40%;
+    
+}
+.left h1{
+    margin-bottom: 10px;
+
+}
+.left p{
+    font-weight: lighter;
+    font-size:25px;
+
+}
+#exmore{
+    background-color: #ED661F;
+    border-color: #ED661F;
+    color: white;
+    margin-top: 30px;
+    padding: 25px 34px;
+    font-weight: bold;
+    font-size: 30px;
+   
+}
