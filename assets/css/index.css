@@ -59,29 +59,34 @@ nav ul li{
 }
 .section2{
     display: flex;
+    box-sizing: border-box;
+    background-image: url('./assets/my_images/image 1 (1).png');
+    background-size: contain;
+    
+    
 
      }
 .left {
     float:left;
     margin-top: 100px;
    
-    margin-left: 80px;
+    margin-left: 40px;
     font-size: 30px;
     font-family: 'Poppins';
+
     
 }
 .section2 img{
-    width:40%;
-    height: 40%;
-    
-}
+    width:35%;
+    height:480px;
+     }
 .left h1{
     margin-bottom: 10px;
 
 }
 .left p{
     font-weight: lighter;
-    font-size:25px;
+    font-size:23px;
 
 }
 #exmore{
@@ -92,5 +97,47 @@ nav ul li{
     padding: 25px 34px;
     font-weight: bold;
     font-size: 30px;
+    box-sizing: border-box;
    
+}
+@media only screen and(min-width:500){
+    .left{
+        margin-left: 40px;
+        font-size: 20px;
+    }
+    .section2 img{
+        width: 40%;
+        height:40%
+    }
+    
+
+}
+.horbar{
+    
+    display: flex;
+    box-sizing: border-box;
+   
+    margin-top: 5px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    border-style:hidden;
+    border-width: 1px;
+    width: 800px;
+    height: 140px;
+    justify-content: center;
+    margin-left: 27%;
+    
+   
+}
+.horbar div{
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size:23px;
+    font-weight:bold;
+}
+.horbar:hover{
+    background-color:whitesmoke ;
+     }
+.horbar div >h5{
+    margin-left: 70px;
+    margin-bottom: 7px;
 }
