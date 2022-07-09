@@ -192,3 +192,39 @@ nav ul li{
     text-underline-offset: 9px;
     text-decoration-thickness: 5px;
 }
+.boxcont >h1{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+.boxcont h1 >span{
+    text-decoration: underline;
+    text-decoration-color:#ED661F;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 5px;
+
+}
+.boxcont .box>img{
+    width: 16rem;
+}
+.enclose{
+    display: flex;
+    flex-basis: 28%;
+    margin-left: 50px;
+}
+.box{
+    padding: 0 2.5rem;
+}
+.box>h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.box>span{
+    font-weight: bold;
+    
+}
+.box>p{
+    margin-bottom: 7px;
+    font-size: 18px;
+}
