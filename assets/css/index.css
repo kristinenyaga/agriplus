@@ -51,12 +51,7 @@ nav ul li{
     text-underline-offset: 4px;
     
 }
-@media only screen and (min-width:980px) and (max-width:1300){
-    nav{
-        width:100%;
-    }
-    
-}
+
 .section2{
     display: flex;
     box-sizing: border-box;
@@ -71,14 +66,24 @@ nav ul li{
     margin-top: 100px;
    
     margin-left: 40px;
-    font-size: 30px;
+    font-size: 1.5em;
     font-family: 'Poppins';
 
     
 }
+@media only screen and(min-width:990px)and (max-width:1200px){
+    .left{
+        font-size: 1em;
+    }
+    .section2 img{
+        width: 200px;
+    }
+
+}
+
 .section2 img{
-    width:35%;
-    height:480px;
+    width:500px;
+    height:600px;
      }
 .left h1{
     margin-bottom: 10px;
@@ -94,24 +99,13 @@ nav ul li{
     border-color: #ED661F;
     color: white;
     margin-top: 30px;
-    padding: 25px 34px;
+    padding: 15px 25px;
     font-weight: bold;
     font-size: 30px;
     box-sizing: border-box;
    
 }
-@media only screen and(min-width:500){
-    .left{
-        margin-left: 40px;
-        font-size: 20px;
-    }
-    .section2 img{
-        width: 40%;
-        height:40%
-    }
-    
 
-}
 .horbar{
     
     display: flex;
@@ -322,4 +316,59 @@ nav ul li{
  }
 .box2:hover{
     background-color:whitesmoke;
+}
+.boxcont2 h2 >span{
+    text-decoration: underline;
+    text-decoration-color:#ED661F;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 5px;
+}
+.boxcont2 >h2{
+    font-size: 35px;
+    float: right;
+    margin-right: 9.5em;
+    margin-top: 30px;
+}
+.center{
+    text-align: center;
+    margin-top: 5em;
+    position:relative;
+    top:6em;
+    
+}
+.center>h1{
+    font-size: 50px;
+}
+.center>p{
+    font-size: 30px;
+}
+
+.black{
+    background-color: black;
+    height: 300px;
+    color: white;
+    margin-top: 9em;
+
+}
+.enter{
+    position: relative;
+    top: 10em;
+    left:45em
+}
+.enter p>span{
+    font-size: 23px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+}
+.enter #sub{
+    position: relative;
+    font-size:22px;
+    padding: 10px 40px;
+    left: -.20em;
+    background-color: #ED661F;
+   
+    
+
 }
