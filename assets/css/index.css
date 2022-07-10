@@ -19,9 +19,9 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
 }
-nav ul,.right{
+nav ul,.right2{
     float: right;
-    margin-right: 40px;
+    margin-right: 10%;
     font-size: 24px;
     
 }
@@ -31,7 +31,7 @@ nav ul li{
     margin: 0 5px;
     margin-left: 60px;
      }
-.right{
+.right2{
     margin-right: 200px;
     margin-left: 150px;
      }
@@ -55,43 +55,47 @@ nav ul li{
 .section2{
     display: flex;
     box-sizing: border-box;
-    background-image: url('./assets/my_images/image 1 (1).png');
-    background-size: contain;
-    
-    
-
-     }
+    background-image: url('../my_images/image\ 1.png');
+    background-size:contain;
+    height: 600px;
+    width: 90%;
+ }
+ 
 .left {
     float:left;
-    margin-top: 100px;
+    margin-top: 60px;
    
     margin-left: 40px;
     font-size: 1.5em;
     font-family: 'Poppins';
+    
 
     
 }
-@media only screen and(min-width:990px)and (max-width:1200px){
+/* @media only screen and(min-width:990px)and (max-width:1200px){
     .left{
         font-size: 1em;
     }
     .section2 img{
         width: 200px;
-    }
+    } */
 
-}
+
 
 .section2 img{
-    width:500px;
-    height:600px;
+    width:35%;
+    height:50%;
      }
 .left h1{
     margin-bottom: 10px;
+    position: relative;
+    padding-top: -5px;
 
 }
 .left p{
     font-weight: lighter;
-    font-size:23px;
+    font-size:27px;
+    font-family: 'Padauk', sans-serif;
 
 }
 #exmore{
@@ -99,7 +103,7 @@ nav ul li{
     border-color: #ED661F;
     color: white;
     margin-top: 30px;
-    padding: 15px 25px;
+    padding: 10px 10px;
     font-weight: bold;
     font-size: 30px;
     box-sizing: border-box;
@@ -110,13 +114,14 @@ nav ul li{
     
     display: flex;
     box-sizing: border-box;
+    background-color: white;
    
-    margin-top: 5px;
+    margin-top: -5em;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
     border-style:hidden;
     border-width: 1px;
     width: 800px;
-    height: 140px;
+    height: 170px;
     justify-content: center;
     margin-left: 27%;
     
@@ -162,6 +167,7 @@ nav ul li{
 }
 .sec3>p{
     margin-top: 40px;
+    font-family: 'Padauk', sans-serif;
     
     font-size: 25px;
 }
@@ -324,9 +330,11 @@ nav ul li{
     text-decoration-thickness: 5px;
 }
 .boxcont2 >h2{
-    font-size: 35px;
+    font-size: 37px;
     float: right;
-    margin-right: 9.5em;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    margin-right: 10em;
     margin-top: 30px;
 }
 .center{
@@ -334,6 +342,7 @@ nav ul li{
     margin-top: 5em;
     position:relative;
     top:6em;
+    right:5em
     
 }
 .center>h1{
@@ -345,15 +354,20 @@ nav ul li{
 
 .black{
     background-color: black;
-    height: 300px;
+    width: 90%;
+    height: 450px;
     color: white;
     margin-top: 9em;
-
+    position: relative;
+    left:26px;
+    margin-bottom: 1em;
+    padding-bottom: 1rem;
+    
 }
 .enter{
     position: relative;
-    top: 10em;
-    left:45em
+    top: 9em;
+    left:30em
 }
 .enter p>span{
     font-size: 23px;
@@ -367,8 +381,180 @@ nav ul li{
     font-size:22px;
     padding: 10px 40px;
     left: -.20em;
-    background-color: #ED661F;
+    background-color: #ED661F;  
+
+}
+.google p>img{
+    width: 20px;
+    position: relative;
+    top:6px;
+    
+}
+.apple p>img{
+    width: 30px;
+    position: relative;
+    top:6px;
+    
+}
+.black2{
+    color: white;
+    background-color: black;
+    width: 90%;
+    height: 600px;
+    margin-left: 20px;
+    
    
+   
+}
+
+ .cont .icons span>img{
+    
+    margin: 0 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-style:hidden;
+    border-radius: 30%;
+    padding: 5px 4px;
+    background-color:whitesmoke;
+    width:30px;
+
+} 
+.cont .agri{
+    position: relative;
+    padding-top: 150px;
+    padding-left: 60px;
+}
+.apple{
+    border: 3px solid white;
+    width: 10em;
+    height: 3.9em;
+    color: black;
+    background-color:whitesmoke;
+    border-radius: 4px;
+    position: relative;
+    top:60px;
+}
+.google{
+    border: 3px solid white;
+    width: 10em;
+    height: 3.8em;
+    color: black;
+    background-color:whitesmoke;
+    border-radius:4px;
+    position: relative;
+    left:11em;
+       
+}
+.agri>h1{
+    font-size: 40px;
+    padding-bottom: 27px;
+}
+.agri>p{
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+.agri>h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.apple>p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.google>p{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    bottom: 5px;
+
+}
+.apple >h4{
+    position: relative;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.google>h4{
+    position: relative;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    top:5px;
+}
+.right{
+    display:flex;
+    float:right;
+    position: relative;
+    top:-24em;
+    margin-right: 5px;
+    margin-right: 20em;
+    
+}
+.div2,
+.div1,
+.div3
+{
+    font-size: 23px;
+    margin-right: 40px;
     
 
+}
+.div2{
+    position: relative;
+    
+    
+   
+}
+.div3{
+    position: relative;
+    
+    
+}
+.box2>span{
+    color: #ED661F;
+    font-size: 30px;
+
+}
+.box2 #grey{
+    color:rgba(214,213,203);
+}
+.down{
+    text-align: center;
+    position: relative;
+    left:15em;
+    font-size: 30px;
+}
+.div2>h4{
+    position: relative;
+    top: 1em;
+    bottom: 2em;
+    padding-bottom: 20px;
+}
+
+.div1>h4{
+    position: relative;
+    top: 1em;
+    bottom: 2em;
+    padding-bottom: 20px;
+}
+
+.div3>h4{
+    position: relative;
+    top: 1em;
+    bottom: 2em;
+    padding-bottom: 20px;
+}
+.boxcont2 h2>i{
+    color: #ED661F;
+    position: relative;
+    top: 17px;
+    left: 15px;
+    font-size: 1.5em;
+}
+.boxcont1 h1>i{
+    color: #ED661F;
+    position: relative;
+    top: 17px;
+    left: 15px;
+    font-size: 1.5em;
 }
