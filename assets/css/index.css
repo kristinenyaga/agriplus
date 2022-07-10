@@ -268,3 +268,48 @@ nav ul li{
     text-align: right;
     margin-right: 30rem;
 }
+.box2>.fa-solid fa-star{
+    color: #ED661F;
+    font-size: 20px;
+ }
+.fa-thin fa-star{
+    color: #ED661F;
+ }
+ .enclose2{
+    display: flex;
+    flex-basis: 40%;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+ }
+ .boxcont2>h1{
+    margin-left: 10rem;
+   
+ }
+ .box2{
+    border: 0.2em solid black;
+    /* border-style:hidden; */
+    margin-right: 0rem;
+    margin-left: 7rem;
+    border-color: whitesmoke;
+    padding: 45px;
+    box-shadow:rgba(0,0,0,12);
+    /* background-color: #FaFaFa; */
+    font-size: 23px;
+    box-shadow: black;
+ }
+ .box2 h3>img{
+    width: 60px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: -5px;
+    padding-top: 30px;
+   
+ }
+ .box2 >h3{
+    margin-bottom: 5px;
+    margin-top: -30px;
+ }
+.box2:hover{
+    background-color:whitesmoke;
+}
