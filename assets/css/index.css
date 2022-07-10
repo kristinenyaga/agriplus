@@ -215,6 +215,8 @@ nav ul li{
 }
 .box{
     padding: 0 2.5rem;
+    border: 0.2em solid black;
+    border-color: whitesmoke;
 }
 .box>h3{
     font-size: 25px;
@@ -251,6 +253,14 @@ nav ul li{
 }
 .box1{
     padding: 0 2.5rem;
+    border: 0.2em solid black;
+    border-color: whitesmoke;
+}
+.box1:hover{
+    background-color: #FaFaFaFa;
+}
+.box:hover{
+    background-color: #FaFaFaFa;
 }
 .box1>h3{
     font-size: 25px;
