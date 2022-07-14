@@ -2,7 +2,7 @@
 _designed by:_
 
 **Christine Nyaga**
-
+# **An AgriPlus Website**
 ## Table of Contents
 <!-- vscode-markdown-toc -->
 * 1. [Description](#Description)
@@ -14,7 +14,7 @@ _designed by:_
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># **An AgriPlus Website**
+<!-- /vscode-markdown-toc -->
 
 
 ##  1. <a name='Description'></a>Descriptionn
